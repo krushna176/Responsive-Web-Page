@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+.grid{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+}
+#section1{
+    margin: 0;
+     padding: 0; 
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     height: 450px; 
+}
+ #section1 h1{
+    padding-top: 50px;
+}
+#section1 p{
+    padding: 0;
+}
+
+#section1 a{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+    
+}
+#section1 a:hover{
+    background-color: rgb(94,147,136);
+	color: black;
+    border-radius: 2px;
+}
+.ser{
+    text-align: center;
+    font-size: large;
+    color: black;
+    background-color: white;
+}
+#section2{
+	height: auto;
+	margin: 0 auto;
+    grid-gap: 50px;
+    background-color: white;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#section2 .sub2{
+    position: relative;
+	overflow: hidden;
+	padding: 0 5em;
+    color: black
+}
+#section3{
+	grid-gap: 15px;
+	padding: 2em 1em 1em;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#section3 .sub3{
+    position: relative;
+	overflow: hidden;
+    background-color: white;
+	font-size: large;
+    color: black
+}
+#section4{
+     background: #fff;
+    color: black;
+    padding: 2em ; 
+}
+
+#section5 .sub5{
+    position: relative;
+	padding: 2em;
+}
+#contact{
+    background-color: rgb(8, 144, 235);
+}
+#about{
+    background-color: c#333;
+}
+#section6{
+    grid-gap: 0;
+}
+#section6 .sub6{
+    position: relative;
+	overflow: hidden;
+	 height: auto;  
+     width: auto;
+     background-color: black;
+}
+@media(max-width: 700px)
+{
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    }
+}
